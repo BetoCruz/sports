@@ -24,6 +24,7 @@ const favoritosSlice = createSlice({
     removerFavorito(state, action: PayloadAction<Produto>) {
       const produtoARemover = action.payload
       state.itens = state.itens.filter((f) => f.id !== produtoARemover.id)
+      alert('Item removido dos favoritos')
     }
   }
 })
