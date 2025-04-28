@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <S.Header>
-      <h1>Loja de Sports</h1>
+      <h1>Sports Store</h1>
       <div>
         <span>{favoritos.length} favoritos</span>
         <img src={cesta} />
